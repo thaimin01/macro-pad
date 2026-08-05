@@ -15,7 +15,5 @@ Real-Time Volume Display
 Features an integrated screen that syncs with your computer to display live volume feedback and status data.
 
 USB-C Connectivity
-Uses a modern USB-C interface for both high-speed data communication with your computer and fast battery charging.
+Uses a modern USB-C interface for both high-speed data communication with your computer
 
-Battery-Powered Portability
-Includes an onboard battery management system, letting you run the macro pad completely wirelessly on the go.
