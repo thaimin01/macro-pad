@@ -11,9 +11,8 @@ Built with hot-swap sockets, allowing you to change mechanical switches instantl
 Dedicated Volume Control
 Custom key mappings and controls designed specifically to step up or step down system volume quickly and accurately.
 
-Real-Time Volume Display
-Features an integrated screen that syncs with your computer to display live volume feedback and status data.
-
+A customizable scree
+An OLED 0.91 inch screen that you can cutomize on your own !
 USB-C Connectivity
 Uses a modern USB-C interface for both high-speed data communication with your computer
 
