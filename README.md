@@ -27,3 +27,6 @@ An OLED 0.91 inch screen that you can cutomize on your own ! e.g Animations, Dra
 USB-C Connectivity
 Uses a modern USB-C interface for HID communication with your computer
 
+Coding interface
+Code by a Human, on Arduino IDE, And C++ !!!
+
