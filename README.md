@@ -27,6 +27,31 @@ An OLED 0.91 inch screen that you can cutomize on your own ! e.g Animations, Dra
 USB-C Connectivity
 Uses a modern USB-C interface for HID communication with your computer
 
+Firmware
+
+Runs on C++, with built in Adafruit_TinyUSB.h, It works by taking instruction from the buttons and translate it in to HID signal for the computer
+
+Schematic
+<img width="958" height="527" alt="schematic" src="https://github.com/user-attachments/assets/de2c0122-e7fc-4b4e-84c5-d70c8d3bb99c" />
+
+
+Case
+
+It's still simple but I'll improve it soon
+<img width="1019" height="783" alt="Case" src="https://github.com/user-attachments/assets/2fcfb9e2-14c9-4de1-b5a4-dcb37c1cad2b" />
+
+
+Bill Of Materials
+
+| Reference | Qty | Value | Footprint |
+| :--- | :---: | :--- | :--- |
+| J1 | 1 | Conn_01x04_Pin | oled:SSD1306-0.91-OLED-4pin-128x32 |
+| MX1, MX2, MX3 | 3 | MX_SW_HS | marbastlib-mx:SW_MX_HS_CPG151101S11_1u |
+| RZ1 | 1 | RP2040-Zero | modfile:RP2040-Zero |
+
+
+
 Coding interface
+
 Code by a Human, on Arduino IDE, And C++ !!!
 
