@@ -17,10 +17,12 @@ Many keys to play around with
 
 You can custom the key mapping, uses of each keys and utilize it
 
-<img width="462" height="556" alt="pcb3d" src="https://github.com/user-attachments/assets/bc8f2055-b5c6-4760-aae1-1e7e1da6314a" />
+<img width="642" height="585" alt="pcb3d" src="https://github.com/user-attachments/assets/6628685d-5e7e-44eb-9efb-9068ce9b1ebe" />
 
 
-<img width="438" height="639" alt="pcb1" src="https://github.com/user-attachments/assets/21b8e0c2-3cd2-4a6c-8980-c3383285c125" />
+
+<img width="622" height="738" alt="pcb1" src="https://github.com/user-attachments/assets/cf8710ea-8df1-4904-9a8b-6d5994dc6588" />
+
 
 
 Quick, convenient, volume control rotary encoder
