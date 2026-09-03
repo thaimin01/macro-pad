@@ -2,26 +2,34 @@ Custom RP2040 Macro Pad
 An open-source, portable macro pad designed to increases and decreases volume in a convenient way and comes with custom key mapping.
 
 Features
- -Waveshare RP2040-Zero
+ -Xiao seeed rp2040
  
- -3 Kailh MX Hotswap Sockets
+ -9 switches
  
  -1 OLED 0.91'' 128x32 SSD1306
 
- <img width="895" height="544" alt="pcb" src="https://github.com/user-attachments/assets/22b40584-d80f-440b-b8e9-f43c19fa239c" />
+ -1 Rotary encoder
 
 
-Hot-Swappable Switches
 
-Built with hot-swap sockets, allowing you to change mechanical switches instantly without any soldering.
-<img width="1187" height="564" alt="pcb front" src="https://github.com/user-attachments/assets/404f940a-50f9-427c-9a80-0597aa10bfa7" />
 
-Quick, convenient, volume control key
-Custom key mappings and volume controls designed to step up or step down system volume quickly and accurately.
+Many keys to play around with
+
+You can custom the key mapping, uses of each keys and utilize it
+
+<img width="462" height="556" alt="pcb3d" src="https://github.com/user-attachments/assets/bc8f2055-b5c6-4760-aae1-1e7e1da6314a" />
+
+
+<img width="438" height="639" alt="pcb1" src="https://github.com/user-attachments/assets/21b8e0c2-3cd2-4a6c-8980-c3383285c125" />
+
+
+Quick, convenient, volume control rotary encoder
+Volume controls designed to change system volume quickly and accurately.
 
 A customizable screen
 An OLED 0.91 inch screen that you can cutomize on your own ! e.g Animations, Drawings, etc.
-<img width="554" height="554" alt="screen" src="https://github.com/user-attachments/assets/c87ce80f-2656-4c72-a107-5b716b5a2db3" />
+
+<img width="500" height="400" alt="images (1)" src="https://github.com/user-attachments/assets/cfa46257-d41f-4eca-8745-e15b43984914" />
 
 
 USB-C Connectivity
@@ -32,22 +40,34 @@ Firmware
 Runs on C++, with built in Adafruit_TinyUSB.h, It works by taking instruction from the buttons and translate it in to HID signal for the computer
 
 Schematic
-<img width="958" height="527" alt="schematic" src="https://github.com/user-attachments/assets/de2c0122-e7fc-4b4e-84c5-d70c8d3bb99c" />
+<img width="1141" height="543" alt="schematic1" src="https://github.com/user-attachments/assets/b3b571c2-de7f-4acd-a54a-bbafc45294f8" />
+
 
 
 Case
 
-It's still simple but I'll improve it soon
-<img width="1019" height="783" alt="Case" src="https://github.com/user-attachments/assets/2fcfb9e2-14c9-4de1-b5a4-dcb37c1cad2b" />
+Not yet :(
+
 
 
 Bill Of Materials
 
-| Reference | Qty | Value | Footprint |
-| :--- | :---: | :--- | :--- |
-| J1 | 1 | Conn_01x04_Pin | oled:SSD1306-0.91-OLED-4pin-128x32 |
-| MX1, MX2, MX3 | 3 | MX_SW_HS | marbastlib-mx:SW_MX_HS_CPG151101S11_1u |
-| RZ1 | 1 | RP2040-Zero | modfile:RP2040-Zero |
+| Reference | Qty | Value | DNP | Exclude fr... | Exclude fr... | Footprint | Datasheet |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| D1, D2, D5, D6 | 4 | SK6812MINI-E | | | | LED_SMD:SK6812MINI-E | [Link](https://www.lcsc.com/datasheet/C5149201.pdf) |
+| D7, D8, D9, D10, D11, D12, D13, D14, D15 | 9 | 1N4148 | | | | Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal | [Link](https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf) |
+| J1 | 1 | Conn_01x04_Pin | | | | oled:SSD1306-0.91-OLED-4pin-128x32 | |
+| MX1 | 1 | 0,0 | | | | marbastlib-xp-mx:SW_MX_Reversible_1u | |
+| MX2 | 1 | 0,1 | | | | marbastlib-xp-mx:SW_MX_Reversible_1u | |
+| MX3 | 1 | 0,2 | | | | marbastlib-xp-mx:SW_MX_Reversible_1u | |
+| MX4 | 1 | 1,0 | | | | marbastlib-xp-mx:SW_MX_Reversible_1u | |
+| MX5 | 1 | 1,1 | | | | marbastlib-xp-mx:SW_MX_Reversible_1u | |
+| MX6 | 1 | 1,2 | | | | marbastlib-xp-mx:SW_MX_Reversible_1u | |
+| MX7 | 1 | 2,0 | | | | marbastlib-xp-mx:SW_MX_Reversible_1u | |
+| MX8 | 1 | 2,1 | | | | marbastlib-xp-mx:SW_MX_Reversible_1u | |
+| MX9 | 1 | 2,2 | | | | marbastlib-xp-mx:SW_MX_Reversible_1u | |
+| SW1 | 1 | RotaryEncoder_Switch_MP | | | | Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles | |
+| U1 | 1 | XIAO-RP2040-SMD | | | | Seeed_Studio_XIAO_Series:XIAO-RP2040-SMD | |
 
 
 
