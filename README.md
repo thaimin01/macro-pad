@@ -48,7 +48,12 @@ Schematic
 
 Case
 
-Not yet :(
+Never ever ask an engineer to disign a case
+
+This is a simple case but its done
+
+<img width="541" height="841" alt="3d case" src="https://github.com/user-attachments/assets/3af2cac9-bfd8-4f42-a6f2-082fd8eaae0d" />
+
 
 
 
