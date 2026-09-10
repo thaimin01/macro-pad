@@ -52,7 +52,8 @@ Never ever ask an engineer to disign a case
 
 This is a simple case but its done
 
-<img width="541" height="841" alt="3d case" src="https://github.com/user-attachments/assets/3af2cac9-bfd8-4f42-a6f2-082fd8eaae0d" />
+<img width="687" height="822" alt="new3dcase" src="https://github.com/user-attachments/assets/d913aad6-1bcb-490f-8eba-844588f4e7e7" />
+
 
 
 
