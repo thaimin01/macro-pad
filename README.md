@@ -1,3 +1,6 @@
+DEMO VIDEO HERE: https://www.youtube.com/watch?v=82zxsW1auBI
+
+
 Custom RP2040 Macro Pad
 An open-source, portable macro pad designed to increases and decreases volume in a convenient way and comes with custom key mapping.
 
